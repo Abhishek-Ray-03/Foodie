@@ -53,7 +53,7 @@ const List = ({ url }) => {
       <p>All Foods List</p>
       {loading ? (
         <FadeLoader
-          color="#3498db" // Adjust color if needed
+          color="#3498db" 
           css={spinnerStyle}
           size={150}
           aria-label="Loading Spinner"

@@ -27,6 +27,7 @@ const FoodDisplay = ({category}) => {
       {loading ? (
         <FadeLoader loading={loading}
          cssOverride={override}
+         color="#3498db" 
         size={150}
         aria-label="Loading Spinner"
         data-testid="loader" />
